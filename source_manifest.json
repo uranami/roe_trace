@@ -1,0 +1,89 @@
+{
+  "snapshot_date": "2026-10-23",
+  "files": [
+    {
+      "path": "tools/trace_dll.cpp",
+      "source": "roe_server/tools/trace_dll.cpp",
+      "sha256": "18e7450d82186416a9aec4ef9c4504dda7afdf8505591fc438f9801f620c0041",
+      "source_sha256": "1b510f938daeabd22ba9b791553b6b9b0ccfa2d89034bd2dea9972f0559b7a52"
+    },
+    {
+      "path": "tools/trace_overlay.cpp",
+      "source": "roe_server/tools/trace_overlay.cpp",
+      "sha256": "9c45b0826551bc16329fd76d8300ce4ad6fc1b9d1ba4dac6e91140d678b18d8b",
+      "source_sha256": "1e992f54345ce6e56c960df629c1eea9996bc4276e748c90a81277b30fbe75e7"
+    },
+    {
+      "path": "tools/trace_overlay.hpp",
+      "source": "roe_server/tools/trace_overlay.hpp",
+      "sha256": "3afb5326e63a26a74e5f982626d7ed0c65ed58b335dd52cb36e19d45b8e0521a",
+      "source_sha256": "76537261ff98d3d1290312c03544eaa1410db2d45002e3762815601958288d08"
+    },
+    {
+      "path": "tools/trace_lifecycle.cpp",
+      "source": "roe_server/tools/trace_lifecycle.cpp",
+      "sha256": "739ce40445f42d3891def105d56599ce9263df0443bf70c835b351c927d359b0",
+      "source_sha256": "739ce40445f42d3891def105d56599ce9263df0443bf70c835b351c927d359b0"
+    },
+    {
+      "path": "tools/trace_lifecycle.hpp",
+      "source": "roe_server/tools/trace_lifecycle.hpp",
+      "sha256": "ad7d093bf0f3ef5ca1b5c515a35a20cdd2840091eede000004cfd565a220c17b",
+      "source_sha256": "ad7d093bf0f3ef5ca1b5c515a35a20cdd2840091eede000004cfd565a220c17b"
+    },
+    {
+      "path": "tools/trace_safetyhook_os.cpp",
+      "source": "roe_server/tools/trace_safetyhook_os.cpp",
+      "sha256": "85adb2c6231e3d6cbc0d1e38d7bc9d076d33b0cb2e31ff1cd33abcd6aeb75a45",
+      "source_sha256": "85adb2c6231e3d6cbc0d1e38d7bc9d076d33b0cb2e31ff1cd33abcd6aeb75a45"
+    },
+    {
+      "path": "tools/trace_remote_probe.hpp",
+      "source": "roe_server/tools/trace_remote_probe.hpp",
+      "sha256": "4d91ff9b98f283b8de1ad777fdefc83ee9635e9f788176d011430b5ba5413c5f",
+      "source_sha256": "4d91ff9b98f283b8de1ad777fdefc83ee9635e9f788176d011430b5ba5413c5f"
+    },
+    {
+      "path": "tools/injector.cpp",
+      "source": "roe_server/tools/injector.cpp",
+      "sha256": "0ba911ee11ff0cce0a6b9e7bf761478796ebd13fc3fc5c5693300264bd8a18f0",
+      "source_sha256": "0ba911ee11ff0cce0a6b9e7bf761478796ebd13fc3fc5c5693300264bd8a18f0"
+    },
+    {
+      "path": "src/message_names.cpp",
+      "source": "roe_server/src/message_names.cpp",
+      "sha256": "14c55e227ae75908d8bd8bc8713bb121dc5039b4a347453209a187d7bf26f852",
+      "source_sha256": "14c55e227ae75908d8bd8bc8713bb121dc5039b4a347453209a187d7bf26f852"
+    },
+    {
+      "path": "src/message_names.hpp",
+      "source": "roe_server/src/message_names.hpp",
+      "sha256": "1ddc7053334426cc25c7cb2535b647b38a1e7b4a8c9464be144732d19fd54a0e",
+      "source_sha256": "1ddc7053334426cc25c7cb2535b647b38a1e7b4a8c9464be144732d19fd54a0e"
+    },
+    {
+      "path": "src/message_names.inc",
+      "source": "roe_server/src/message_names.inc",
+      "sha256": "9197859930c29ade7e924cc3f5e563c686eb6a70edd8e089a2c377ddc88551cb",
+      "source_sha256": "e9f631d6fbca92f26e33a364dd1156d606fb165b20ecc36824a21ed9ce791479"
+    },
+    {
+      "path": "tests/trace_remote_probe_tests.cpp",
+      "source": "roe_server/tests/trace_remote_probe_tests.cpp",
+      "sha256": "3669123f6d0fd90476982563e2d667fba0c71aaec47c432ef304a037b81ca586",
+      "source_sha256": "3669123f6d0fd90476982563e2d667fba0c71aaec47c432ef304a037b81ca586"
+    },
+    {
+      "path": "tests/trace_lifecycle_tests.cpp",
+      "source": "roe_server/tests/trace_lifecycle_tests.cpp",
+      "sha256": "e757b2b44fcff6a671aabcaf05053377c352e8348acb8cea17c45f37b2985690",
+      "source_sha256": "e757b2b44fcff6a671aabcaf05053377c352e8348acb8cea17c45f37b2985690"
+    }
+  ],
+  "text_normalization": "Standalone first-party text uses LF; source_sha256 records the original working-tree bytes.",
+  "standalone_changes": [
+    "Removed developer menu controls, developer UDP control protocol, catalogs, grapple/swim/noclip hooks and their tests.",
+    "Kept Insert to open/close a position-only panel, the persistent POS HUD, packet tracing, diagnostics and cooperative unloading.",
+    "Lifecycle MidHook coverage uses a dedicated fixture-only hook; no gameplay MidHook remains."
+  ]
+}
